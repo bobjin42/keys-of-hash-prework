@@ -1,10 +1,10 @@
 class Hash
   def keys_of(*arguments)
-    keys = map do |key, value|
+    keys = arr.each{|key, value|
       if arguments.include?value
-        key
+        return key
       end
-    end
+    }
     keys.compact
   end
 end
