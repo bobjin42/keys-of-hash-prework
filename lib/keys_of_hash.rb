@@ -7,5 +7,4 @@ class Hash
     end
     keys.compact
   end
-  end
 end
