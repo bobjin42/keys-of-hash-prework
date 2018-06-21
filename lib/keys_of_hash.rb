@@ -1,8 +1,9 @@
 class Hash
   def keys_of(*arguments)
-      keys.collect{|key, value|
+    new_arr = []
+      keys.each{|key, value|
       if arguments.include?value
-         key
+         new_arr << key
       end
     }
     return keys.compact
