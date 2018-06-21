@@ -6,6 +6,6 @@ class Hash
          new_arr << key
       end
     }
-    return keys.compact
+    return new_arr
   end
 end
