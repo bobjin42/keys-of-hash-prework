@@ -1,6 +1,6 @@
 class Hash
   def keys_of(*arguments)
-    keys = arr.each{|key, value|
+      keys.each{|key, value|
       if arguments.include?value
          key
       end
