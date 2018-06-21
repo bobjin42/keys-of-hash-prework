@@ -5,6 +5,6 @@ class Hash
          key
       end
     }
-    keys.compact
+    return keys.compact
   end
 end
